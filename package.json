@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/fallhrpaper-api",
+  "version": "1.0.0",
+  "description": "fallhrpaper HTTP API · Express wrapper around @ai-native-solutions/fallhrpaper-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallhrpaper", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallhrpaper-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/fallhrpaper-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
